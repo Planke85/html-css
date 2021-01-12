@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0E192A;
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    width: 800px;
+    margin: 10px auto;
+    background-color: rgb(158, 233, 151);
+    color: blue;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+}
+
+nav {
+    width: 650px;
+    margin: 0px auto;
+    background-color: rgb(158, 233, 151);
+    border: 2px solid #FFFFFF;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin: 5px;
+    text-align: center;
+}
+
+nav ul li {
+    padding: 0 10px;
+}
+
+section {
+    width: 850px;
+    margin: 20px auto;
+    display: flex;
+    color: #ffffff;
+}
+
+.contact {
+    margin-left: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.contact button {
+    margin: 0 15px;
+}
+
+.btn-like {
+    background-color: #2e85d6;
+    padding: 5px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.signUp {
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.title {
+    text-align: center;
+    color: #000000;
+}
+
+article {
+    width: 500px;
+    padding: 10px;
+    background-color: #4e7af3;
+    border: 1px solid #ffffff;
+}
+
+.donate {
+    background-color: yellow;
+    padding: 0px 10px;
+    border: 1px solid yellow;
+    border-radius: 20px;
+    color: #000000;
+}
+
+aside {
+    width: 250px;
+    text-align: center;
+}
+
+aside p {
+    padding: 10px;
+}
+
+.dog1 {
+    margin-top: 200px;
+}
+
+.dog2 {
+    margin-top: 500px;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+}
+

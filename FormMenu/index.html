@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/main.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet" />
+    <title>Dado Tea</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="" class="form" method="post">
+            <div>
+                <h1>Dado Tea Lunch Special</h1>
+                <p>
+                    Monday through Friday<br />
+                    11am - 3pm<br />
+                    $9.95 plus tax
+                </p>
+                <p>Includes sandwich, snack, and drink.</p>
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend>Order information</legend>
+
+                    <label for="name" class="bold">Name:<br />
+                        <input type="text" name="name" id="name">
+                    </label><br /><br />
+
+                    <input type="radio" id="here" name="order" value="here">
+                    <label for="here">Here</label><br>
+                    <input type="radio" id="toGo" name="order" value="toGo">
+                    <label for="toGo">To Go</label><br><br />
+                </fieldset>
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend>Sandwiches</legend>
+                    <div>
+                        <span class="bold">Monday</span><br />
+                        <input type="radio" id="tomato" name="mondayManu" value="tomato">
+                        <label for="tomato">Tomato Mozzarella</label><br>
+                        <input type="radio" id="chicken" name="mondayManu" value="chicken">
+                        <label for="chicken">Chicken Salad</label><br><br />
+                    </div>
+
+                    <div>
+                        <span class="bold">Tuesday</span><br />
+                        <input type="radio" id="greekSalad" name="tuesdayManu" value="greekSalad">
+                        <label for="greekSalad">Greek Salad Wrap</label><br>
+                        <input type="radio" id="totoWrap" name="tuesdayManu" value="totoWrap">
+                        <label for="totoWrap">Toto Wrap</label><br><br />
+                    </div>
+
+                    <div>
+                        <span class="bold">Wednesday</span><br />
+                        <input type="radio" id="redPepper" name="wednesdayManu" value="redPepper">
+                        <label for="redPepper">Red Pepper Hummus</label><br>
+                        <input type="radio" id="turkey" name="wednesdayManu" value="turkey">
+                        <label for="turkey">Roasted Turkey</label><br><br />
+                    </div>
+
+                    <div>
+                        <span class="bold">Thursday</span><br />
+                        <input type="radio" id="carrot" name="thursdayManu" value="carrot">
+                        <label for="carrot">Carrot-Ginger Hummus Wrap</label><br>
+                        <input type="radio" id="egg" name="thursdayManu" value="egg">
+                        <label for="egg">Egg Salad</label><br><br />
+                    </div>
+
+                    <div>
+                        <span class="bold">Friday</span><br />
+                        <input type="radio" id="dado" name="fridayManu" value="dado">
+                        <label for="dado">Dado Wrap</label><br>
+                        <input type="radio" id="tuna" name="fridayManu" value="tuna">
+                        <label for="tuna">Tuna Salad</label><br />
+                    </div>
+                    <hr />
+
+                    <div>
+                        <input type="checkbox" id="glutenFree" name="glutenFree" value="glutenFree">
+                        <label for="glutenFree"> Gluten Free Bread ( 75&cent; extra )</label><br /><br />
+                    </div>
+                </fieldset>
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend>Snacks</legend>
+
+                    <div>
+                        <span class="bold">Snacks</span><br />
+                        <input type="radio" id="apple" name="snack" value="apple">
+                        <label for="apple">Apple</label><br>
+                        <input type="radio" id="banana" name="snack" value="banana">
+                        <label for="banana">Banana</label><br />
+                        <input type="radio" id="potato" name="snack" value="potato">
+                        <label for="potato">Potato Chips</label><br />
+                    </div>
+                </fieldset>
+            </div>
+
+            <div>
+                <fieldset>
+                    <legend>Drink</legend>
+
+                    <div>
+                        <span class="bold">Drinks</span><br />
+                        <select id="drink" name="drink">
+                            <option value="drink" disabled selected>Select Drink...</option>
+                            <option value="coffe">Cofee</option>
+                            <option value="iceCoffe">Iced Cofee</option>
+                            <option value="peppermint">Organic Peppermint</option>
+                            <option value="hotGreenTea">Hot Sencha Green Tea</option>
+                            <option value="iceGreenTea">Iced Sencha Green Tea</option>
+                            <option value="hotBlackTea">Hot Keemun Black Tea</option>
+                            <option value="iceBlackTea">Iced Kemmun Black Tea</option>
+                        </select>
+                    </div>
+                    <hr />
+                    
+                    <div>
+                        <input type="checkbox" id="largeDrink" name="largeDrink" value="largeDrink">
+                        <label for="largeDrink"> Large drink ( 75&cent; extra )</label><br /><br />
+                    </div>
+                </fieldset>
+            </div><br/>
+            
+            <div>
+                <input type="submit" class="btn" value="Place Order">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

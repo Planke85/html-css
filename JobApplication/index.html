@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/main.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <title>Job Application</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form action="" class="form" method="post" enctype="multipart/form-data">
+            <div>
+                <h1>Job Application</h1>
+            </div>
+
+            <div>
+                <h3>Personal Information</h3>
+
+                <div class="row">
+                    <div class="left">
+                        <span>Name</span>
+                    </div>
+                    <div class="right">
+                        <div>
+                            <input type="text" name="fname" id="fname"><br>
+                            <small>First Name</small>
+                        </div>
+                        <div class="name">
+                            <input type="text" name="lname" id="lname"><br>
+                            <small>Last Name</small>
+                        </div>
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="left">
+                        <span>Email</span>
+                    </div>
+                    <div class="right">
+                        <input type="email" name="email" class="email" placeholder="user@example.com" id="email">
+                    </div>
+                </div><br><br>
+
+                <div class="row">
+                    <div class="left">
+                        <span>Education</span>
+                    </div>
+                    <div class="right">
+                        <select name="education" id="education">
+                            <option value="" selected="selected" disabled="disabled">Please Choose</option>
+                            <option value="No formal educatio">No formal education</option>
+                            <option value="Primary Education">Primary Education</option>
+                            <option value="Secondary Education">Secondary education or high school</option>
+                            <option value="Bachelor degree">Bachelor's degree</option>
+                            <option value="Master degree">Master's degree</option>
+                            <option value="Doctorate or higher">Doctorate or higher</option>
+                        </select>
+                    </div>
+                </div><br><br>
+
+                <div class="row">
+                    <div class="left">
+                        <span>Resume</span>
+                    </div>
+                    <div class="right">
+                        <input type="file" name="resume" class="file" id="resume"><br>
+                    </div>
+                </div><br><br>
+
+                <div class="row">
+                    <div class="left">
+                        <span>Address</span>
+                    </div>
+                    <div class="right">
+                        <div>
+                            <div>
+                                <input type="text" name="address1" id="address1"><br>
+                                <small class="center">Address1</small>
+                            </div><br>
+                            <div>
+                                <input type="text" name="address2" id="address2"><br>
+                                <small class="center">Address2</small>
+                            </div> <br>
+
+                            <div>
+                                <select name="contry" id="country" class="full-width">
+                                    <option value="" selected="selected" disabled="disabled">Select Country</option>
+                                    <option value="Macedonia">Macedonia</option>
+                                    <option value="Serbia">Serbia</option>
+                                    <option value="Montenegro">Montenegro</option>
+                                    <option value="Bulgaria">Bulgaria</option>
+                                </select>
+                            </div><br>
+
+                            <div class="city">
+                                <div>
+                                    <input type="text" name="city"><br>
+                                    <small>City</small>
+                                </div>
+                                <div class="m-left">
+                                    <input type="text" name="state" size="3"><br />
+                                    <small>State</small>
+                                </div>
+                                <div class="m-left">
+                                    <input type="text" name="zipcode"><br />
+                                    <small>Zip Code</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="left">
+                        <span>Phone Number</span>
+                    </div>
+                    <div class="right">
+                        <div>
+                            <input type="text" name="operator" id="operator" size="3">
+                        </div>
+                        <input type="text" name="phone" class="m-left" id="phone">
+                    </div>
+                </div><br>
+                <div>
+                    <label for="hobbie">What are your hobbies?</label><br>
+                    <input type="text" name="hobbie" id="hobbie">
+                </div>
+
+            </div><!-- end Personal Information -->
+
+
+            <div>
+                <div>
+                    <h3>Precious/Current Employment Details</h3>
+                </div>
+
+
+                <div class="row">
+                    <div class="left">
+                        <span>Company Name</span>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="company" id="company">
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="left">
+                        <span>Job Title</span>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="job" id="job">
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="left">
+                        <span>How long you here?</span>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="longOnJob" id="longOnJob">
+                    </div>
+                </div><br>
+            </div>
+
+            <div>
+                <div>
+                    <h3>Reference #1</h3>
+                </div>
+
+                <div class="row">
+                    <div class="left">
+                        <span>Name</span>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="refName1" id="refName1">
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="left">
+                        <span>Phone</span>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="refPhone1" id="refPhone1">
+                    </div>
+                </div><br>
+            </div>
+
+            <div>
+                <div>
+                    <h3>Reference #2</h3>
+                </div>
+
+                <div class="row">
+                    <div class="left">
+                        <span>Name</span>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="refName2" id="refName2">
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="left">
+                        <span>Phone</span>
+                    </div>
+                    <div class="right">
+                        <input type="text" name="refPhone2" id="refPhone2">
+                    </div>
+                </div><br>
+            </div>
+
+            <div>
+                <input type="submit" class="btn" name="submit" value="Apply">
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
